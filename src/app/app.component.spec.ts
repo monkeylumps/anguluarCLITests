@@ -20,4 +20,7 @@ describe('App: AngularCLI', () => {
       inject([AppComponent], (app: AppComponent) => {
     expect(app.title).toEqual('app works!');
   }));
+  it('should fail', () => {
+  expect(1).toEqual(2)
+  });
 });
